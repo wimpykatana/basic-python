@@ -9,11 +9,11 @@ print(fruits[-1]) # elderberry
 
 slice_fruits = fruits[1:4]
 print(slice_fruits)  # ['banana', 'cherry', 'date']
-
-print(fruits[-1])  # elderberry
+print(fruits)  # ['apple', 'banana', 'cherry', 'date', 'elderberry']
 
 fruits.append('grape')
 print(fruits) # ['apple', 'banana', 'cherry', 'date', 'elderberry', 'grape']
+
 fruits.insert(2, 'manggo')
 print(fruits)  # ['apple', 'banana', 'manggo', 'cherry', 'date', 'elderberry', 'grape']
 
